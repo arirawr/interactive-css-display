@@ -1,11 +1,11 @@
-$('#padding').change(function() {
-  $('#box').css('padding', $(this).val());
+$('#display1').change(function() {
+  $('#box1').css('display', $(this).val());
 });
 
-$('#margin').change(function() {
-  $('#box').css('margin', $(this).val());
+$('#display2').change(function() {
+  $('#box2').css('display', $(this).val());
 });
 
-$('#border').change(function() {
-  $('#box').css('border-width', $(this).val());
+$('#display3').change(function() {
+  $('#box3').css('display', $(this).val());
 });

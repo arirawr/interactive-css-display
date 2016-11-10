@@ -15,9 +15,9 @@ body {
   background-color: #ccc;
 }
 
-#box {
+.box {
   background-color: pink;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   border: 1px solid firebrick;
 }
@@ -26,7 +26,7 @@ body {
   margin: 40px 0;
 }
 
-#controls input {
+#controls select {
   margin: 0px 20px 0px 5px;
 }
 

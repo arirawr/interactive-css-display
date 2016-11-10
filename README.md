@@ -1,4 +1,4 @@
-# interactive-box-model
-Play with margin, padding, and borders.
+# interactive-css-display
+Play with CSS display properties.
 
-##Access [here](http://arirawr.github.io/interactive-box-model)
+##Access [here](http://arirawr.github.io/interactive-css-display)

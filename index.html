@@ -1,18 +1,35 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Interactive Box Model</title>
+    <title>Interactive CSS Display</title>
     <link rel="stylesheet" href="style.css"/>
     <script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper">
-      <div id="box">I am a box.</div>
+      <div class="box" id="box1">I am a block element.</div>
+      <div class="box" id="box2">I am a block element.</div>
+      <div class="box" id="box3">I am a block element.</div>
     </div>
     <div id="controls">
-      <label>Padding</label><input id="padding" type="number" value="10"></input>
-      <label>Margin</label><input id="margin" type="number" value="10"></input>
-      <label>Border</label><input id="border" type="number" value="1"></input>
+      <label>Box 1 Display</label>
+      <select id="display1">
+        <option value="block" selected="selected">block</option>
+        <option value="inline-block">inline-block</option>
+        <option value="inline">inline</option>
+      </select>
+      <label>Box 2 Display</label>
+      <select id="display2">
+        <option value="block" selected="selected">block</option>
+        <option value="inline-block">inline-block</option>
+        <option value="inline">inline</option>
+      </select>
+      <label>Box 3 Display</label>
+      <select id="display3">
+        <option value="block" selected="selected">block</option>
+        <option value="inline-block">inline-block</option>
+        <option value="inline">inline</option>
+      </select>
     </div>
     <footer>Brought to you by Arielle Vaniderstine. Find me on <a href="https://github.com/arirawr">Github</a> and <a href="https://twitter.com/imariari">Twitter</a>.</footer>
     <script src="script.js"></script>
